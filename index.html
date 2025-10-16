@@ -1,0 +1,185 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perfil de <Álvaro> — Desarrollador</title>
+    <meta name="description" content="Resumen profesional, tecnologías y proyectos de <Álvaro Segovia Mendoza>." />
+    <!-- Bootstrap 5 (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Estilos propios -->
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-semibold" href="#">&lt;Álvaro&gt;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero -->
+    <header class="py-5 bg-light border-bottom">
+        <div class="container d-flex align-items-center gap-4">
+            <img src="images/logo.png" alt="Avatar de <Álvaro Segovia Mendoza>" class="avatar d-none d-sm-block" />
+            <div>
+                <h1 class="h2 mb-1 text-dark">¡Hola! Soy &lt;Álvaro Segovia&gt;</h1>
+                <p class="mb-0 text-secondary">
+                    Desarrollador Full-Stack con interés en backend con Spring Boot, APIs REST y desarrollo frontend
+                    sencillo y funcional.
+                    Me gusta construir soluciones limpias aplicando buenas prácticas, bien probadas y fáciles de
+                    desplegar.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="section-title">
+            <h2 class="h4">Sobre mí</h2>
+            <ul>
+                <li>Me apasiona la tecnología y el deporte, dos áreas que me motivan personalmente.
+                    Tengo inquietud por aprender nuevas tecnologías y poder aplicarlas en futuros proyectos.</li>
+                <li>🗣️ Tengo un nivel de inglés <b>intermedio-avanzado</b> (B2),
+                    este me permite defenderme con documentación técnica y comunicarme bien en entornos de trabajo.</li>
+            </ul>
+        </section>
+
+        <hr>
+        <section id="experiencia" class="section-title">
+            <h2 class="h4">Experiencia</h2>
+            <ul>
+                <li><b>Eviden (formación dual, 1 mes / abril-mayo 2025)</b><br>
+                    Durante este período, he aprendido a construir el backend de una aplicación conectado a una BD
+                    utilizando tecnología
+                    como <b>Spring Boot, MySQL, Postman, JPA, Hibernate, JUnit y Git</b>. A pesar de la corta duración
+                    de este período, he conocido y conectado con muchos nuevos compañeros, tanto mentores como
+                    estudiantes.</li>
+            </ul>
+        </section>
+        <hr>
+        <!-- Tecnologías -->
+        <section id="tecnologias" class="section-title">
+            <h2 class="h4">Tecnologías y herramientas</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3 class="h6 text-uppercase">Backend</h3>
+                            <div>
+                                <span class="badge text-bg-primary badge-tech">Java</span>
+                                <span class="badge text-bg-primary badge-tech">Spring Boot</span>
+                                <span class="badge text-bg-primary badge-tech">REST</span>
+                                <span class="badge text-bg-primary badge-tech">JPA</span>
+                                <span class="badge text-bg-primary badge-tech">MySQL</span>
+                                <span class="badge text-bg-primary badge-tech">MariaDB</span>
+                            </div>
+                            <h3 class="h6 mt-3 text-uppercase">Frontend</h3>
+                            <div>
+                                <span class="badge text-bg-success badge-tech">HTML</span>
+                                <span class="badge text-bg-success badge-tech">CSS</span>
+                                <span class="badge text-bg-success badge-tech">JavaScript</span>
+                                <span class="badge text-bg-success badge-tech">&lt;React/Vue&gt;</span>
+                            </div>
+                            <h3 class="h6 mt-3 text-uppercase">DevOps & Testing</h3>
+                            <div>
+                                <span class="badge text-bg-dark badge-tech">Docker</span>
+                                <span class="badge text-bg-dark badge-tech">GitHub Actions</span>
+                                <span class="badge text-bg-dark badge-tech">CI/CD</span>
+                                <span class="badge text-bg-dark badge-tech">JUnit</span>
+                                <span class="badge text-bg-dark badge-tech">Mockito</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="section-title">
+            <h2 class="h4">Proyectos destacados</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="h5">Ticket Logger</h3>
+                            <p class="mb-2">Aplicación que registra y guarda información sobre los tickets generados en
+                                un sistema de gestión de incidencias.</p>
+                            <p class="mb-2">
+                                <span class="badge text-bg-info">Spring Boot</span>
+                                <span class="badge text-bg-info">PostgreSQL</span>
+                            </p>
+                            <a class="btn btn-outline-primary btn-sm me-2"
+                                href="https://github.com/alvaro-segovia-mendoza/dwese2526-ticket-logger-servlet-asm.git"
+                                target="_blank" rel="noopener">Repo</a>
+                            <a class="btn btn-primary btn-sm" href="proximamente" target="_blank"
+                                rel="noopener">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="h5">Proyecto Benéfico</h3>
+                            <p class="mb-2">Página web para dar visibilidad a una <b>ONG</b> en Castilleja de la Cuesta.
+                            </p>
+                            <p class="mb-2">
+                                <span class="badge text-bg-info">Astro</span>
+                            </p>
+                            <a class="btn btn-outline-primary btn-sm me-2" href="proximamente" target="_blank"
+                                rel="noopener">Repo</a>
+                            <a class="btn btn-primary btn-sm" href="proximamente" target="_blank"
+                                rel="noopener">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contacto -->
+        <section id="contacto" class="section-title">
+            <h2 class="h4">Contacto</h2>
+            <ul class="list-unstyled">
+                <li>💼 <a href="https://www.linkedin.com/in/%C3%A1lvaro-segovia-mendoza-a446532a6" target="_blank"
+                        rel="noopener">LinkedIn</a></li>
+                <li>🌐 <a href="https://github.com/alvaro-segovia-mendoza" target="_blank" rel="noopener">GitHub</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer class="border-top">
+        <div class="container">
+            <p class="mb-0 small">© <span id="y"></span> &lt;Álvaro Segovia Mendoza&gt;. Hecho con Bootstrap y GitHub
+                Pages.</p>
+        </div>
+    </footer>
+
+
+    <!-- JS -->
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
